@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*
 *
@@ -1002,6 +1003,53 @@ hr {
 	width: 68px;
 	height: 68px;
 	line-height: 54px;
+}
+
+button {
+  position: relative;
+  margin: 4px auto 0;
+  background: #000;
+  font-size: 18px;
+  padding: 0;
+  font-family: 'Permanent Marker', cursive;
+  border: none;
+  padding: 10px 40px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  max-width: 250px;
+  min-width: 100px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: .2s;
+} button:hover {
+  letter-spacing: 3px;
+} button:active {
+  transform: scale(1.2);
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px; 
+  background: linear-gradient(45deg, #CC00FF, #6E0DD0, #9900FF, #FF6600, #00FF00, #ffff00, #ff0000, #FFFF00, #FFFF33, #ffff00, #FF00FF, #FF00CC, #FF0000, #00FF66, #33FF00, #00FFFF, #099FFF, #0062FF, #ff0000, #F2EA02, #E6FB04, #0033FF, #FF0099, #00FF33, #0000ff, #00ff00, #fb0094, #0000ff, #00ff00, #fb0094, #FD1C03, #FF3300, #CC00FF, #9D00FF, #CC00FF, #6E0DD0, #9900FF);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: linear-shadow 25s linear infinite;
+}
+
+button:before {
+  filter: blur(20px);
+}
+
+@keyframes linear-shadow {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
 
 .button-block {
