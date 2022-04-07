@@ -983,13 +983,13 @@ hr {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	padding: 5px 5px;
+	padding: 5px;
 	font-size: 14px;
 	line-height: 1.25;
 	border: 2px solid;
 	font-family: "Righteous", cursive;
 	font-weight: 400;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-transform: uppercase;
 	border-radius: 50%;
 	white-space: nowrap;
@@ -1964,7 +1964,7 @@ textarea.form-input {
 .page-link {
 	display: inline-block;
 	min-width: 48px;
-	padding: 10px 10px;
+	padding: 10px;
 	border: 2px solid #d7d7d7;
 	font-size: 14px;
 	line-height: 1.71429;
@@ -2948,7 +2948,7 @@ h3 + img {
 }
 
 .row-0 {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .row-0:empty {
@@ -2956,7 +2956,7 @@ h3 + img {
 }
 
 .row-0 > * {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .row-15 {
@@ -5025,7 +5025,7 @@ html.rd-navbar-fixed-linked .page {
 	right: 0;
 	z-index: 1101;
 	width: 450px;
-	padding: 94px 0 0 0;
+	padding: 94px 0 0;
 	background: #fff;
 	transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 	transform: translateX(100%);
@@ -5708,7 +5708,7 @@ html.rd-navbar-fixed-linked .page {
 .swiper-container-vertical > .swiper-pagination {
 	right: 10px;
 	top: 50%;
-	transform: translate3d(0px, -50%, 0);
+	transform: translate3d(0, -50%, 0);
 }
 
 .swiper-container-vertical > .swiper-pagination .swiper-pagination-bullet {
@@ -5940,7 +5940,7 @@ html.rd-navbar-fixed-linked .page {
 	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-transform: uppercase;
 	text-align: center;
 	color: #fff;
@@ -6524,7 +6524,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .tabs-corporate .nav-link {
-	padding: 10px 10px;
+	padding: 10px;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 700;
@@ -6622,7 +6622,7 @@ html.rd-navbar-fixed-linked .page {
 	}
 	.tabs-horizontal.tabs-line .nav-link {
 		position: relative;
-		padding: 0 0 15px 0;
+		padding: 0 0 15px;
 		background-color: transparent;
 		color: #9b9b9b;
 		border: 0;
@@ -6757,7 +6757,7 @@ html.rd-navbar-fixed-linked .page {
 
 .card-corporate {
 	text-align: left;
-	box-shadow: -1px 2px 5px 0px rgba(68, 73, 83, 0.12);
+	box-shadow: -1px 2px 5px 0 rgba(68, 73, 83, 0.12);
 }
 
 .card-corporate .card-title {
@@ -8028,7 +8028,7 @@ yx-axis
 	position: relative;
 	overflow: hidden;
 	/* fix for flashing background */
-	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev,
@@ -10577,7 +10577,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .layout-panel-wrap.active .layout-panel-inner:after {
-	box-shadow: -3px 0px 50px -2px rgba(0, 0, 0, 0.09);
+	box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.09);
 }
 
 .layout-panel-wrap .layout-panel-toggle,
@@ -10646,7 +10646,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	height: auto;
 	min-height: 101vh;
 	max-width: 260px;
-	padding: 20px 0 20px;
+	padding: 20px 0;
 	color: #9b9b9b;
 	background: #fff;
 	margin-left: auto;
@@ -10660,7 +10660,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	right: 0;
 	bottom: 0;
 	left: 0;
-	box-shadow: -3px 0px 50px -2px transparent;
+	box-shadow: -3px 0 50px -2px transparent;
 	z-index: -10;
 	transition: .33s all ease;
 }
@@ -11001,7 +11001,7 @@ html[dir='rtl'] .layout-panel-row {
 
 .thumbnail-small-caption {
 	position: relative;
-	padding: 8px 8px;
+	padding: 8px;
 }
 
 .thumbnail-small-header {
@@ -11027,7 +11027,7 @@ html[dir='rtl'] .layout-panel-row {
 		padding: 7px;
 		background: #fff;
 		transform: translate3d(-120%, -60%, 0);
-		box-shadow: -3px 0px 50px -2px rgba(0, 0, 0, 0.14);
+		box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
 		opacity: 0;
 		pointer-events: none;
 		transition: .33s all ease;
@@ -11047,7 +11047,7 @@ html[dir='rtl'] .layout-panel-row {
 		height: 24px;
 		transform: translate3d(0, -50%, 0) rotate(45deg);
 		background: #fff;
-		box-shadow: -3px 0px 45px -2px rgba(0, 0, 0, 0.13);
+		box-shadow: -3px 0 45px -2px rgba(0, 0, 0, 0.13);
 	}
 	html:not(.tablet):not(.mobile) .thumbnail-small:hover .thumbnail-small-caption::after {
 		bottom: 0;
@@ -11118,5 +11118,3 @@ html[dir='rtl'] .layout-panel-row {
 .theme-switcher-group-item[data-theme-name='style-1'] {
 	background: #6297c0;
 }
-
-/*# sourceMappingURL=style.css.map */
