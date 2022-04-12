@@ -9,6 +9,7 @@
 *
 * Contexts
 */
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -826,13 +827,13 @@ img {
 }
 
 .icon-xxs {
-	font-size: 12px;
+	font-size: 25px;
 }
 
 .icon-xxs.icon-circle {
-	width: 22px;
-	height: 22px;
-	line-height: 22px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
 }
 
 /*
@@ -2127,7 +2128,7 @@ textarea.form-input {
 }
 
 .navigation .brand img {
-	max-width: 100px;
+	max-width: 140px;
 }
 
 .navigation .container {
