@@ -4,6 +4,108 @@
 * Trunk version 2.0.0
 *
 */
+/* Box */
+div.textBox {
+  padding: 5px 20px 0 20px;
+  margin: 0 auto;
+  border: 10px solid #FFF;
+  font: 16px sans-serif;
+  width: 700px;
+  height: 300px;
+  overflow-y: scroll;
+  background: #000000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  }
+  
+  /* Headings */
+  div.textBox>h1 {
+    font-size: 1.35rem;
+  }
+  
+  div.textBox>h2 {
+    font-size: 1.1rem;
+    color: #18CAF6;
+  }
+  
+  div.textBox>h3 {
+    font-size: 1rem;
+  }
+  
+  /* Horizontal Rule */
+  hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  
+  /* Unordered list table */
+  div.textBox ul {
+    display: table;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  div.textBox ul li {
+      display: table-row;
+  }
+  
+  div.textBox ul li:before {
+    content: "• ";
+    color: #18CAF6;
+    font-size: 1.3em;
+    padding-left: 25px;
+    padding-right: 10px;
+    display: table-cell;
+  }
+  
+  /* Text */
+  div.textBox>p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #18CAF6;  
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #12a1eb;  
+  }
+  
+  /* Button */
+  button {
+    background: #18CAF6; 
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  }
+  
 /*
 *
 * Contexts
@@ -38,7 +140,7 @@
   }
 }
 .team__container {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   align-content: center;
@@ -94,7 +196,7 @@
   box-shadow: rgba(64, 241, 112, 0.962) 0 3px 12px;
   margin: 1.5rem;
   transition: all 0.5s;
-  border-radius: 5px;
+  border-radius: 2px;
   border-radius: 100%;
   position: relative;
 }
@@ -102,9 +204,9 @@
   margin: 1rem;
 }
 .team__card-img img {
-  border-radius: 100%;
-  height: 16rem;
-  width: 16rem;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
   object-fit: cover;
 }
 .team__card-img img:hover {
